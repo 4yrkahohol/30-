@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -82,9 +82,69 @@
     <span id="span_q13">1</span>
     <button onclick="span_q13()">дай больше</button>
 
+    <div id="content">
+        <h1>Добро пожаловать!</h1>
+        <p>Выберите раздел:</p>
+      </div>
+      
+      <button onclick="showAboutUs()">О нас</button>
+      <button onclick="showServices()">Услуги</button>
+      <button onclick="showContacts()">Контакты</button>
+      <script>
+        function showAboutUs() {
+          var contentElement = document.getElementById('content');
+          contentElement.innerHTML = 
+          '<p>Мы команда профессионалов...</p> <h1>О нас</h1>'
+          ;
+        }
+      
+        function showServices() {
+          var contentElement = document.getElementById('content');
+          contentElement.innerHTML = 
+          '<p>Мы предоставляем широкий спектр услуг...</p> <h1>Услуги</h1>'
+          ;
+        }
+      
+        function showContacts() {
+          var contentElement = document.getElementById('content');
+          contentElement.innerHTML = 
+          '<p>Свяжитесь с нами по телефону..</p> <h1>Контакты</h1>'
+          ;
+        }  
+    </script>
+
+    <!--15-->
+<h2>Список сотрудников</h2>
+
+<ul id="employee-list">
+  <li>Иван Иванов - Менеджер - Отдел продаж</li>
+  <li>Мария Петрова - Дизайнер - Отдел маркетинга</li>
+</ul>
+
+<h3>Добавить нового сотрудника:</h3>
+<input type="text" id="new-employee" placeholder="Имя - Должность - Отдел">
+<button onclick="addEmployee()">Добавить</button>
+
+<script>
+  function addEmployee() {
+    var input = document.getElementById('new-employee');
+    var employeeList = document.getElementById('employee-list');
+    var newEmployee = input.value;
+
+    if (newEmployee.trim() !== '') {
+      var li = document.createElement('li');
+      li.textContent = newEmployee;
+      employeeList.appendChild(li);
+      input.value = '';
+    } else {
+      alert('Пожалуйста, введите данные о сотруднике.');
+    }
+  }
+</script>
+
 
     <script src="kfkfkjf.js"></script>
     <script src="second.js"></script>
     <script src="third.js"></script>
 
-</html>
+</html> 
