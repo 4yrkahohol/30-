@@ -1,0 +1,133 @@
+.color_q3{
+    color: green;
+    font-size: large;    
+}
+.img1{
+    width: 300px;
+    height: 200px;
+}
+.button_q9c{
+    background-color: yellow;
+}
+
+/* 11 Задание */
+.v1_99{
+    width: 1440px;
+    height: 400px;
+    position: relative;
+    background-color: white;
+}
+.v1_100{
+    height: 830px; 
+    left: 0px; 
+    top: 1px; 
+    position: absolute; 
+    background: white; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex
+}
+.v1_101{
+    width: 1440px; 
+    height: 156px; 
+    position: relative;
+    background-color: rgb(213, 213, 213);
+}
+.v1_102{
+    padding-left: 20px; 
+    padding-right: 20px; 
+    left: 70px; 
+    top: 26.12px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: inline-flex
+}
+.v1_103{
+    width: 206px; 
+    height: 101.76px
+}
+.v1_104{
+    left: 820px; 
+    top: 53px; 
+    position: absolute; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 77px; 
+    display: inline-flex
+}
+.v1_105{
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 94px; display: flex
+}
+.v1_106{
+    padding: 10px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px; 
+    display: flex
+}
+.v1_107{
+    text-align: center; 
+    color: #FA4A0C; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 28px; 
+    letter-spacing: 0.20px; 
+    word-wrap: break-word
+}
+.v1_108{
+    padding: 10px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px; 
+    display: flex
+}
+.v1_109{
+    text-align: center; 
+    color: #252B42; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 28px; 
+    letter-spacing: 0.20px; 
+    word-wrap: break-word
+}
+.v1_110{
+    padding: 10px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px; 
+    display: flex
+}
+.v1_111{
+    text-align: center; 
+    color: #252B42; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 28px; 
+    letter-spacing: 0.20px; 
+    word-wrap: break-word
+}
+.v1_112{
+    padding: 10px; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px; 
+    display: flex
+}
+.v1_113{
+    text-align: center; 
+    color: #252B42; 
+    font-size: 16px; 
+    font-family: Montserrat; 
+    font-weight: 600; 
+    line-height: 28px; 
+    letter-spacing: 0.20px; 
+    word-wrap: break-word
+}
