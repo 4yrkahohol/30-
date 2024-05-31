@@ -10,7 +10,7 @@
 //     functionPlus = plus1 + plus2;
 //     alert(functionPlus);
 // }else if (sign == '-'){
-//     let functionMinus;
+//     let func
 //     minus1 = prompt('Введите первое число');
 //     minus2 = prompt('Введите второе число');
 //     minus1 = Number(minus1);
